@@ -1,0 +1,22 @@
+{
+  "name": "agile-aspects-week-4",
+  "version": "1.0.0",
+  "description": "agile aspects week 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.4"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.14"
+  }
+}
